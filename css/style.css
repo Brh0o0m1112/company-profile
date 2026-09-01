@@ -15,6 +15,7 @@ body {
     padding: 20px 60px;
     background-color: #eee;
     box-shadow: 0 3px 10px -5px black;
+    position: relative;
 }
 
 .logo {
@@ -563,26 +564,18 @@ body {
 
     .nav-links.active {
         display: flex;
-
         flex-direction: column;
-
         position: absolute;
-
         top: 70px;
         right: 20px;
-
         width: calc(100% - 40px);
-
         padding: 25px;
-
         background: white;
-
         border-radius: 8px;
-
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-
         gap: 20px;
     }
+
 
 }
 
