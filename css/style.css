@@ -726,6 +726,15 @@ body {
         gap: 40px;
     }
 
+    .footer-contact {
+        margin-bottom: 15px;
+    }
+
+    .footer-contact a{
+        display: block;
+        margin-top: 15px;
+    }
+
     .footer-about p {
         max-width: 100%;
     }
