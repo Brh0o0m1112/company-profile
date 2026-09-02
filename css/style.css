@@ -395,6 +395,8 @@ body {
 }
 
 .footer-contact a {
+    display: block;
+    margin-top: 15px;
     color: #d1d5db;
     text-decoration: none;
     font-size: 15px;
@@ -724,15 +726,6 @@ body {
     .footer-container {
         grid-template-columns: 1fr;
         gap: 40px;
-    }
-
-    .footer-contact {
-        margin-bottom: 15px;
-    }
-
-    .footer-contact a{
-        display: block;
-        margin-top: 15px;
     }
 
     .footer-about p {
