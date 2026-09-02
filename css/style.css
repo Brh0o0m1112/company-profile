@@ -498,10 +498,11 @@ body {
 .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 70px;
-    padding: 100px 60px;
+    gap: 60px;
+    padding: 80px 60px;
     max-width: 1200px;
     margin: 0 auto;
+    align-items: start;
 }
 
 .contact-info h2 {
@@ -661,6 +662,11 @@ body {
         height: 350px;
     }
 
+    .mission {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
     .stats {
         padding: 50px 20px;
         grid-template-columns: repeat(2, 1fr);
@@ -702,12 +708,17 @@ body {
         border-radius: 8px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         gap: 20px;
+        z-index: 1000;
     }
 
     .contact {
-    grid-template-columns: 1fr;
-    padding: 70px 20px;
-    gap: 40px;
+        grid-template-columns: 1fr;
+        padding: 60px 20px;
+        gap: 40px;
+    }
+
+    .contact-info {
+        width: 100%;
     }
 
     .contact-info h2 {
@@ -715,6 +726,7 @@ body {
     }
 
     .contact-form {
+        width: 100%;
         padding: 25px;
     }
 }
